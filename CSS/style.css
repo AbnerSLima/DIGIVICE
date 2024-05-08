@@ -36,15 +36,15 @@ main {
 .digimon_data {
 	position: absolute;
 	font-weight: 700;
-	color: #fff;
+	color: #667d76;
 	top: 97%;
-	left: 27%;
+	width: 100%;
+	left: 0;
 	font-size: clamp(8px , 6vw, 40px);
 }
 
 .digimon_name {
 	color: #fff;
-
 }
 
 .form {
@@ -74,12 +74,12 @@ main {
 	width: 100%;
 	padding: 25%;
 	background: transparent;
-	border: 0; /* <<<<<<< Colocar valor 0 nesse atributo  */
+	border: 5px solid red; /* <<<<<<< Colocar valor 0 nesse atributo  */
 	color: transparent;
 }
 
 .button:active {
-	background: radial-gradient(circle at center, rgba(0,0,0,0.8) 00%, rgba(255,255,255,0) 100%);
+	background: radial-gradient(circle at center, rgba(0,0,0,0.8) 00%, rgba(255,255,255,0) 90%);
 }
 
 .button1 {
