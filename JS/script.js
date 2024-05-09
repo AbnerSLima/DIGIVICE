@@ -7,6 +7,9 @@ const input = document.getElementById("input_search");
 const button1 = document.getElementById("btn-1");
 const button2 = document.getElementById("btn-2");
 const button3 = document.getElementById("btn-3");
+const buttonIConf = document.getElementById("img_conf");
+const buttonINext = document.getElementById("img_next");
+const buttonIPrev = document.getElementById("img_prev");
 
 let digimonInitial = 1;
 
@@ -64,6 +67,30 @@ button3.addEventListener('click', () => {
     renderDigimon(digimonInitial);
   }
 })
+
+button1.addEventListener('mouseover', () => {
+  buttonIConf.classList.remove("hidden");
+});
+
+button1.addEventListener('mouseout', () => {
+  buttonIConf.classList.add("hidden");
+});
+
+button2.addEventListener('mouseover', () => {
+  buttonINext.classList.remove("hidden");
+});
+
+button2.addEventListener('mouseout', () => {
+  buttonINext.classList.add("hidden");
+});
+
+button3.addEventListener('mouseover', () => {
+  buttonIPrev.classList.remove("hidden");
+});
+
+button3.addEventListener('mouseout', () => {
+  buttonIPrev.classList.add("hidden");
+});
 
 renderDigimon(digimonInitial);
 

@@ -27,10 +27,31 @@ main {
 
 .digimon_image {
 	position: absolute;
-	bottom: 36%;
-	left: 37%;
-	height: 29%;
+	bottom: 40%;
+	left: 41%;
+	height: 20%;
 	border-radius: 5px;
+}
+
+.instructions {
+	position: absolute;
+	width: 25%;
+	transition: opacity 0.3s ease-in-out;
+}
+
+.img_conf {
+	top: 36%;
+	left: 1%;
+}
+
+.img_prev {
+	top: 44%;
+	right: 3%;
+}
+
+.img_next {
+	top: 29%;
+	right: 3%;
 }
 
 .digimon_data {
@@ -67,7 +88,7 @@ main {
 
 .buttons {
 	position: absolute;
-	width: 19%;
+	width: 12%;
 }
 
 .button {
@@ -83,8 +104,8 @@ main {
 }
 
 .button1 {
-	left: 6%;
-	top: 40%;
+	left: 19.5%;
+	top: 42.5%;
 }
 
 .btn-1 {
@@ -93,8 +114,8 @@ main {
 }
 
 .button2 {
-	right: 9%;
-	top: 30%;
+	right: 21.5%;
+	top: 35%;
 }
 
 .btn-2 {
@@ -102,11 +123,29 @@ main {
 }
 
 .button3 {
-	right: 9%;
-	top: 54%;
+	right: 21.5%;
+	top: 53%;
 }
 
 .btn-3 {
 	border-radius: 50%;
+}
+
+.button4 {
+	display: none; /*<<< Finalizar botão das funções */
+	position: absolute;
+	width: 16%;
+	left: 15%;
+	bottom: 10%;
+}
+
+.btn-4 {
+	border-radius: 8px;
+	width: 100%;
+	padding: 5%;
+}
+
+.hidden {
+	opacity: 0;
 }
 
